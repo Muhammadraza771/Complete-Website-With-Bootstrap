@@ -1,19 +1,29 @@
-@media(min-width: 768px){
-    .input-in{
-        width: 50%;
-    }
+@media (min-width: 768px) {
+  .input-in {
+    width: 50%;
+  }
 
+  #exp {
+    color: dimgray;
+  }
 
-  
-
- #exp{
-     color:dimgray;
- }
-
-
- .card-img-top {
+  .card-img-top {
     width: 100%;
     height: 15vw;
     object-fit: cover;
+  }
 }
+
+#x {
+  color: dodgerblue;
+}
+
+#k {
+  width: 18rem;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
 }

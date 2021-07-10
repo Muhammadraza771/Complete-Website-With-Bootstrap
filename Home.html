@@ -9,12 +9,14 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css" />
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
     <title>First Website</title>
   </head>
   <body>
     <!--   Navigation Bar  -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark py-2">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark py-2 fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#">BlueFire Tech.</a>
         <button
@@ -54,12 +56,11 @@
       class="bg-light text-dark p-5 p-lg-0 p-lg-0 text-center text-md-start"
     >
       <div class="container">
-        <div class="d-sm-flex align-items-center justify-content-between">
+        <div class="d-sm-flex align-items-center justify-content-between mt-3">
           <div>
             <h1>
-             <span class="text-primary"> Bluefire </span> Tech.
-                Services & Solutions
-              
+              <span class="text-primary"> Bluefire </span> Tech. Services &
+              Solutions
             </h1>
             <p class="lead my-2">
               Bluefire Technology Is A Company Found By Muhammad Raza. Our Sole
@@ -70,7 +71,7 @@
           </div>
           <div>
             <img
-              class="img-fluid d-none d-sm-block"
+              class="img-fluid d-none d-sm-block mt-5"
               src="img/undraw_Designer_by46.svg"
               alt="pic"
             />
@@ -107,80 +108,280 @@
 
     <section class="p-15">
       <div class="container">
-        <div class="row text-center ">
+        <div class="row text-center">
           <div class="col-md g-3 text-center">
-         
-            <div class="card" >
-              <img src="img/three.svg" class="card-img-top" alt="dsktaPP">
+            <div class="card h-100">
+              <img src="img/three.svg" class="card-img-top" alt="..." />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-
-
-
-          </div>
-          
-          <div class="col-md g-3 text-center">
-            <div class="card" >
-              <img src="img/four.svg" class="card-img-top" alt="mblapp">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title">Desktop Applications</h5>
+                <p class="card-text">
+                  Functional Desktop Applications with New Design and
+                  User-Interfaces. Integrated With Sql-Server Database for
+                  Better Data-Management.
+                </p>
               </div>
             </div>
           </div>
 
           <div class="col-md g-3 text-center">
-            <div class="card" >
-              <img src="img/fv.svg" class="card-img-top " alt="world">
+            <div class="card h-100">
+              <img src="img/four.svg" class="card-img-top" alt="..." />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title">Mobile Application</h5>
+                <p class="card-text">
+                  Clean Looking Mobile Application that Best Suits Your
+                  Requirements. With Firebase as Backend Database, this
+                  Applications Truely Live upto Expectations.
+                </p>
               </div>
             </div>
           </div>
 
+          <div class="col-md g-3 text-center">
+            <div class="card h-100">
+              <img src="img/fv.svg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Web Application</h5>
+                <p class="card-text">
+                  Aesthetic Websites with HTMl,CSS & Bootstrap with PHP as
+                  Backend Allows You to Professionally Showcase Your Business.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
+    <!--card grid system ends-->
 
- <!--card grid system ends-->
+    <!--Services Description-->
+
+    <section class="p-5">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md">
+            <img
+              src="img/undraw_good_team_m7uu.svg"
+              class="img-fluid"
+              alt="svg"
+            />
+          </div>
+          <div class="col-md justify-content-between">
+            <h2>Get Served From The Best</h2>
+            <h4 id="exp">Our Expertise</h4>
+            <p>
+              Our Expertise Lie in the core-skills of our workforce. It is us
+              who look forward to building a product that best suits our clients
+              in terms of organizational structure and interests.
+            </p>
+            <p id="s">
+              “Experience is the name everyone gives to their mistakes.” – Oscar
+              Wilde
+            </p>
+
+            <p>
+              Our Company has had a life-long reputation in collaboration with
+              prominent organizations and providing quality services as per
+              required. We look forward to working with you.
+            </p>
+            <a href="#" class="btn btn-dark">
+              <i class="bi bi-chevron-right"></i>Join Us
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="p-5 bg-dark text-light">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md justify-content-between">
+            <h2>Work With The Professionals</h2>
+           
+            <p>
+              BlueFire Technologies Always Looks Forward to Contributing Back To The Society. With Sincerest Regards, We Announce a Wide Range of Job Oppurtunities & Internships For Potential Candidates and Fresh Graduates.
+            </p>
 
 
+            <p>
+             <h6 id="x">Job Openings</h6>
+             <ul>
+               <li >PHP Developer</li>
+               <li >Front-End Designer</li>
+               <li >Human Resource Manager</li>
+               <li >Graphics Desginer</li>
+             </ul>
+
+            <h6 id="x">Internships</h6>
+            <ul>
+              <li >Junior Programmer</li>
+              <li>Html Designer</li>
+              <li>Accountant</li>
+              
+            </ul>
+        
+            </p>
+            
+
+           
+            <a href="#" class="btn btn-light my-2 mx-4"> Apply Now </a>
+          </div>
+          <div class="col-md">
+            <img src="img/jobnew.svg" class="img-fluid" alt="svg" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Services Description Ends Here-->
+
+    <!--company ceo-->
 
 
+ <section class="p-5 bg-light">
+  <div class="container">
+    <h2 class="text-center text-dark">Leadership</h2>
+    <p class="lead text-center text-dark mb-3">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eius magni rem. Quos consectetur et unde, accusamus dignissimos dolor cumque!
+    </p>
+
+   
+   
 
 
-<!--Services Description-->
+    <div class="row g-4">
+
+      <div class="col-md-6 col-lg-3">
+        <div class="card bg-dark">
+          <div class="card-body text-center">
+            <img src="https://randomuser.me/api/portraits/men/11.jpg" class="rounded-circle mb-3" alt="">
+            <h3 class="card-title mb-3 text-light"> Muhammad Raza</h3>
+            <p class="card-text text-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci, illum. Libero earum ullam, distinctio et alias nisi doloremque eligendi laboriosam?</p>
+         <a href="#"><i class="bi bi-twitter text-light mx-2"></i></a>
+         <a href="#"><i class="bi bi-instagram text-light mx-2"></i></a>
+         <a href="#"><i class="bi bi-linkedin text-light mx-2"></i></a>
+         <a href="#"><i class="bi bi-youtube text-light mx-2"></i></a>
+         <a href="#"><i class="bi bi-facebook text-light mx-2"></i></a>
+          </div>
+        </div>
+        </div>
 
 
-<section class="p-5">
+        <div class="col-md-6 col-lg-3">
+          <div class="card bg-dark">
+            <div class="card-body text-center">
+              <img src="https://randomuser.me/api/portraits/men/15.jpg" class="rounded-circle mb-3" alt="">
+              <h3 class="card-title mb-3 text-light"> Muhammad Raza</h3>
+              <p class="card-text text-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci, illum. Libero earum ullam, distinctio et alias nisi doloremque eligendi laboriosam?</p>
+           <a href="#"><i class="bi bi-twitter text-light mx-2"></i></a>
+           <a href="#"><i class="bi bi-instagram text-light mx-2"></i></a>
+           <a href="#"><i class="bi bi-linkedin text-light mx-2"></i></a>
+           <a href="#"><i class="bi bi-youtube text-light mx-2"></i></a>
+           <a href="#"><i class="bi bi-facebook text-light mx-2"></i></a>
+            </div>
+          </div>
+          </div>
 
-<div class="container">
-  <div class="row align-items-center justify-content-between">
-    <div class="col-md ">
-      <img src="img/undraw_good_team_m7uu.svg" class="img-fluid" alt="svg">
-    </div>
-    <div class="col-md justify-content-between">
-      <h2>Get Served From The Best</h2>
-      <h4 id="exp" >Our Expertise</h4>
-      <p>Our Expertise Lie in the core-skills of our workforce.
-        It is us who look forward to building a product that best suits our clients in
-        terms of organizational structure and interests.
-      </p>
-      <p id="s" >“Experience is the name everyone gives to their mistakes.” – Oscar Wilde</p>
-      
-      <p>Our Company has had a life-long reputation in collaboration with prominent organizations and 
-        providing quality services as per required. We look forward to working with you.
-      </p>
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-dark">
+              <div class="card-body text-center">
+                <img src="https://randomuser.me/api/portraits/men/16.jpg" class="rounded-circle mb-3" alt="">
+                <h3 class="card-title mb-3 text-light"> Muhammad Raza</h3>
+                <p class="card-text text-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci, illum. Libero earum ullam, distinctio et alias nisi doloremque eligendi laboriosam?</p>
+             <a href="#"><i class="bi bi-twitter text-light mx-2"></i></a>
+             <a href="#"><i class="bi bi-instagram text-light mx-2"></i></a>
+             <a href="#"><i class="bi bi-linkedin text-light mx-2"></i></a>
+             <a href="#"><i class="bi bi-youtube text-light mx-2"></i></a>
+             <a href="#"><i class="bi bi-facebook text-light mx-2"></i></a>
+              </div>
+            </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+              <div class="card bg-dark">
+                <div class="card-body text-center">
+                  <img src="https://randomuser.me/api/portraits/men/18.jpg" class="rounded-circle mb-3" alt="">
+                  <h3 class="card-title mb-3 text-light"> Muhammad Raza</h3>
+                  <p class="card-text text-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci, illum. Libero earum ullam, distinctio et alias nisi doloremque eligendi laboriosam?</p>
+               <a href="#"><i class="bi bi-twitter text-light mx-2"></i></a>
+               <a href="#"><i class="bi bi-instagram text-light mx-2"></i></a>
+               <a href="#"><i class="bi bi-linkedin text-light mx-2"></i></a>
+               <a href="#"><i class="bi bi-youtube text-light mx-2"></i></a>
+               <a href="#"><i class="bi bi-facebook text-light mx-2"></i></a>
+                </div>
+              </div>
+              </div>
+
     </div>
   </div>
-</div>
+</section>
+
 
 </section>
 
 
-<!--Services Description-->
+    <!--company ceo ends jere -->
+
+
+
+
+
+
+      <!--Project Showcase-->
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+     
+      
+      <!--Project Showcase-->
+
+
+
+
+
+
+
+
+
+
+
+<section class="p-5">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md ">
+        <h2 class="text-center mb-4 text-dark">Contact Information</h2>
+        <ul class="list-group list-group-flush lead">
+          <li class="list-group-item">
+            <span class="fw-bold">Address: </span> Hazara Town, Brewery Road
+          </li>
+          <li class="list-group-item">
+            <span class="fw-bold">Contact: </span> 081-9876732
+          </li>
+          <li class="list-group-item">
+            <span class="fw-bold">Email: </span> info@bluetech.mail
+          </li>
+          <li class="list-group-item">
+            <span class="fw-bold">Fax </span> 91192312903
+          </li>
+        </ul>
+
+       
+        
+      </div>
+      <div class="col-md">
+        <div id="map"> </div>
+      </div>
 
 
 
@@ -195,11 +396,54 @@
 
 
 
+    </div>
+
+
+
+
+
+
+
+
+
+  </div>
+</section>
+
+
+<!--Footer-->
+
+<footer class="p-5 bg-dark text-white text-center position-relative">
+
+  <div class="container">
+    <p class="lead">Copyright &copy; All Rights Reserved</p>
+
+    <a href="#" class="position-absolute bottom-0 end-0 p-5">
+      
+    </a>
+
+    <p class="Text-white">BlueFire Tech. is a Copyright Of BlueFire Technologies Inc.</p>
+  </div>
+</footer>
+
+<!--Footer-->
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+
+
+    <script>
+      mapboxgl.accessToken = 'pk.eyJ1IjoibXJhemE2OSIsImEiOiJja3F4dWd2Z2gxMjdxMnd0OW1ja3JoYzduIn0.KMwVr-9R0WMEWLY37gbjCw';
+var map = new mapboxgl.Map({
+container: 'map',
+style: 'mapbox://styles/mapbox/streets-v11',
+center: [66.956894,30.188368],
+zoom : 15,
+});
+    </script>
   </body>
 </html>
